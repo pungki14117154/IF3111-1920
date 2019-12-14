@@ -15,7 +15,7 @@
 <?php endif;?>
 <br>
 <div class="tambah">
-	<a href="<?=base_url()?>data/tambah">Buat Laporan/Komentar<img src="asset/gambar/add-circle-512.png" alt="simbol" style=" height: 20px; width: 25px;"></a>
+	<a href="<?=base_url()?>data/tambah">Buat Laporan/Komentar<i class="fas fa-plus"  style=" height: 20px; width: 25px;"></i></a>
 </div>
 
 <div class="komentar">

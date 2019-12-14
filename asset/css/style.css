@@ -8,7 +8,16 @@ ul.navbar {
   padding: 0;
   overflow: hidden;
   background-color: #FF4500;
-  
+  height:100px;
+  line-height:50px;
+  background:red;
+  color:#fff;
+  font-family: "Lucida Console", Lucida, monospace;
+  text-align: center;
+
+}
+.navbar{
+
 }
 
 li.navbar {
@@ -24,7 +33,7 @@ li.navbar a.navbar{
 }
 
 li a.navbar:hover {
-  background-color: #111;
+  background-color: #FF4500;
 }
 
 ul.detail li.detail{
