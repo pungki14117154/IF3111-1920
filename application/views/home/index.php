@@ -3,24 +3,24 @@
 <h1 class="judul">SIMPLE LAPOR!</h1>
 </div>
 <form action="" method="post">
-<div class="search">
-<input type="text" name="keyword" id="keyword" placeholder="cari..." >
-<button type="submit">Submit</button>
+<form>
+    <input class="search" type="text" name="keyword" id="keyword"  placeholder="Cari..." required>
+    <input class="button" type="button" value="Cari">		
 </form>
-</div>
+</form>
 <?php if($this->session->flashdata('flash')):?>
 <div>Data <strong>berhasil</strong> ditambahkan!<?= $this->session->flashdata('flash');?>
 </div>
 <?php endif;?>
 <br>
 <div class="buat">
-<a href="<?=base_url()?>data/tambah">Buat laporan</a>
+<a href="<?=base_url()?>data/tambah">Buat Laporan/Komentar<i class="fas fa-plus"  style=" height: 20px; width: 25px;"></i></a>
 </div>
 
 <div class="tulisan">
-<p>laporan/komentar</p>
+<p>laporan/komentar terakhir</p>
 </div>
-
+<hr />
 <div class="tulisan2">
 <div class="newshead">
 <ul class="detail">
